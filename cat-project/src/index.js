@@ -7,6 +7,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Reservation from './components/reservation/Reservation';
+import Success from './components/success/Success';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "/reservation",
     element: <Reservation />
+  },
+  {
+    path: "/success",
+    element: <Success />
   },
 ]);
 
