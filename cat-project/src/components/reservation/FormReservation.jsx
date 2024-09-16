@@ -138,7 +138,7 @@ export default function FormReservation() {
           type="submit"
           className="btn btn-lg mt-4 rounded-5 w-50"
           style={{ backgroundColor: '#ff8a00', color: 'black' }}
-          data-testid="mobile-reserve-button"
+          disabled={!isValid}
         >
           Reservar
         </button>
