@@ -6,7 +6,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Reservation from './components/reservation';
+import Reservation from './components/reservation/Reservation';
 
 const router = createBrowserRouter([
   {
