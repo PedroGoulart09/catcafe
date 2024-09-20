@@ -23,15 +23,15 @@ export default function Success() {
       <h1 className='text-color'>Reserva concluída <br /> com sucesso !</h1>
 
       <button
-  type="submit"
-  className="btn btn-lg mt-4 rounded-5 w-50 w-md-25"
-  style={{ backgroundColor: '#ff8a00', color: 'black' }}
-  onClick={() => {
-    history('/')
-  }}
->
-  Voltar para página inicial
-</button>
+        type="submit"
+        className="btn btn-lg mt-4 rounded-5 w-50 w-md-25"
+        style={{ backgroundColor: '#ff8a00', color: 'black' }}
+        onClick={() => {
+          history('/')
+        }}
+        >
+        Voltar para página inicial
+      </button>
 
     </div>
   );
